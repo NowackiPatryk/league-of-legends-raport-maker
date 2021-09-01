@@ -79,7 +79,7 @@ export class TaskService {
     }
   }
 
-  @Cron('55 * * * * *') // ('0 4 * * *')
+  @Cron('0 4 * * *')
   async deleteUselessMatches() {
     this.matchService.deleteOlderThanMonth();
   }
