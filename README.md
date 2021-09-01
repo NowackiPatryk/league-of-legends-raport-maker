@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # league-of-legends-raport-maker
 Simple app to track user progress in League of Legends. 
 
@@ -9,4 +8,4 @@ win ratio, minions per minute, wards per game, vision score per game, number of 
 
 # In future: 
 I'll propably do frontend part as well and host it somewhere.
->>>>>>> master
+
