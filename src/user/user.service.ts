@@ -15,6 +15,14 @@ export class UserService {
     return this.userRepository.find();
   }
 
+  async getOneBySummonerName(summonerName: string): Promise<User> {
+    return this.userRepository.findOne({
+      where: {
+        summonerName,
+      },
+    })
+  }
+
   async createUser(
     createUserDto: CreateUserDto
   ): Promise<User> {
