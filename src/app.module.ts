@@ -8,7 +8,6 @@ import { TaskModule } from './task/task.module';
 import { ScheduleModule } from '@nestjs/schedule';
 import { RiotModule } from './riot/riot.module';
 import { RaportModule } from './raport/raport.module';
-import { SubscriptionModule } from './subscription/subscription.module';
 import riot from './config/riot';
 
 
@@ -32,7 +31,6 @@ import riot from './config/riot';
     TaskModule,
     RiotModule,
     RaportModule,
-    SubscriptionModule,
   ],
   controllers: [],
   providers: [],
